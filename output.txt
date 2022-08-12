@@ -1,1 +1,7 @@
-The number 19 is prime
+The number 12 is composite
+The number 11 is prime
+The number 16 is composite
+The number 23 is prime
+The number 31 is prime
+The number 56 is composite
+The number 72 is composite
