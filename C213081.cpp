@@ -12,12 +12,24 @@ bool check_prime(int n)
 using namespace std;
 int main()
 {
-    int n;
+    int arr[101];
     ifstream input("input.txt");
     ofstream output("output.txt");
-    input >> n;
-    if (check_prime(n))
-        output << "The number " << n << " is prime";
-    else
-        output << "The number " << n << " is composite";
+    int i = 1;
+    
+    while (input >> arr[i])
+    {
+
+        if (check_prime(arr[i]))
+        {
+            output << "The number " << arr[i] << " is prime"<<endl;
+            continue;
+        }
+        else
+        {
+            output << "The number " << arr[i] << " is composite"<<endl;
+            continue;
+        }
+        i++;
+    }
 }
