@@ -1,2 +1,5 @@
+Product ID: 1
+Product Category: Kitchen
+Product Name: Frying Pan
 Customer ID: 81
 Price: 45$

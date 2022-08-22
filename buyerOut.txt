@@ -1,3 +1,6 @@
+Product ID: 1
+Product Category: Kitchen
+Product Name: Frying Pan
 Buyer ID: 81
 Price: 65$
 Buyer Name: Asiful Islam
